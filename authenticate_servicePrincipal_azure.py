@@ -37,3 +37,8 @@ dbutils.fs.mount(
 source = f"abfss://{container}@{storagename}.dfs.core.windows.net/",
 mount_point = f"/mnt/azure__{container}_{storagename}",
 extra_configs = get_config_authenticate_azure_adlsgen2_SP(storagename, service_principal_id, service_principal_secret, tenantid))
+
+
+
+
+# /mnt/azure__data-ingestion-poc_irissapoc
