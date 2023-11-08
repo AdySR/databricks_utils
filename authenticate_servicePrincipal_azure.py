@@ -39,8 +39,8 @@ mount_point = f"/mnt/azure__{container}_{storagename}",
 extra_configs = get_config_authenticate_azure_adlsgen2_SP(storagename, service_principal_id, service_principal_secret, tenantid))
 
 
-dbutils.fs.ls('/mnt/azure__data-ingestion-poc_irissapoc/')
 
+dbutils.fs.ls('/mnt/azure__data-ingestion-poc_irissapoc/')
 dbutils.fs.ls('dbfs:/mnt/azure__data-ingestion-poc_irissapoc/')
 
 
